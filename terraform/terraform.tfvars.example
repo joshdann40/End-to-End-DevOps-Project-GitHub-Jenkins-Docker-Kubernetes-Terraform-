@@ -1,0 +1,7 @@
+aws_region          = "us-east-1"
+cluster_name        = "devops-demo-eks"
+kubernetes_version  = "1.30"
+vpc_id              = "vpc-xxxxxxxx"
+private_subnet_ids  = ["subnet-aaaa", "subnet-bbbb"]
+cluster_role_arn    = "arn:aws:iam::<account-id>:role/EKSClusterRole"
+node_role_arn       = "arn:aws:iam::<account-id>:role/EKSNodeRole"
